@@ -1,0 +1,48 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    display: inline-block;
+    text-align: center;
+    line-height: 78px;
+    font-weight: 100;
+    /* padding-left: 100px; */
+
+}
+
+li a{
+    display: block;
+    padding: 10px;
+    color: blue;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: firebrick;
+    padding: 10px;
+}
+.heading{
+    text-align: center;
+}
+body{
+    background-image: url(kingfisher.JPG);
+    background-size: cover;
+}
+.container{
+    margin-top: 17px;
+    margin-right: 100px;
+    padding: 15px 15px 20px 15px;
+}
+p{
+    line-height: 100px;
+    color:green;
+}
+.para{
+    margin-top: 17px;
+
+}
